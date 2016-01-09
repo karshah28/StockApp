@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Calling program</title>
+    
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            
+        }
+
+        .auto-style3 {
+            font-size: small;
+        }
+
+        .auto-style2 {
+            font-size: large;
+            background-color:deepskyblue;
+            
+        }
+
+        .auto-style4 {
+            font-size: xx-large;
+        }
+       
+    </style>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <form>
+        <div style="height: 323px; width: 694px; z-index: 1; left: 86px; top: 57px; position: absolute;">
+            <asp:Panel ID="Panel1" style="z-index: 1; left: 98px; top: 28px; position: absolute; height: 264px; width: 550px" Width="550px">
+                <table class="auto-style2">
+                    <tr>
+                        <td>Stock Symbol:</td>
+                        <td>
+                            <asp:TextBox ID="txtStockSymbol"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Stock Name:</td>
+                        <td>
+                            <asp:TextBox ID="txtStockname"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Day Code:</td>
+                        <td>
+                            <asp:TextBox ID="txtDayCode"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Price:</td>
+                        <td>
+                            <asp:TextBox ID="txtLastPrice"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Trade Size</td>
+                        <td>
+                            <asp:TextBox ID="TradeSize"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Net Change</td>
+                        <td>
+                            <asp:TextBox ID="NetChance"></asp:TextBox>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>
+                            <asp:Button ID="btnsubmit" OnClick="btnsubmit_Click" Text="Submit" />
+                        </td>
+                    </tr>
+                </table>
+            </asp:Panel>
+</div>
+
+</form> 
+    
+
+</body>
+</html>
